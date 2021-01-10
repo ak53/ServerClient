@@ -2,10 +2,10 @@
 A server-client socket program in C
 
 The program has the following features:
-The client initiates the connection
-Takes a file name from the user
-Sends the file name to the server
-Server searches for the file name in its shared drive (you can assume there is only one shared folder that a client can access file from)
-Server sends the file to the client
-Clients stores it in its local drive
-Client closes the connection
+1) The client initiates the connection
+2) Takes a file name from the user
+3) Sends the file name to the server
+4) Server searches for the file name in its shared drive (you can assume there is only one shared folder that a client can access file from)
+5) Server sends the file to the client
+6) Clients stores it in its local drive
+7) Client closes the connection
